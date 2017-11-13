@@ -1,4 +1,20 @@
 #!/usr/bin/python
+#
+# Copyright (C) 2017 Terence Ho <terence.ho@techdata.com>
+#
+# This script is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Ansible is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with it.  If not, see <http://www.gnu.org/licenses/>.
+#
 
 import csv
 import os
@@ -9,7 +25,7 @@ import subprocess
 from subprocess import Popen, PIPE
 import sys
 
-host = ""
+host = "" # whether command is --host or --list
 
 if (len(sys.argv) == 2 and sys.argv[1] == "--list"):
   host = ""
