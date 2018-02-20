@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# Copyright (C) 2017 Terence Ho <terence.ho@techdata.com>
+# Copyright (C) 2018 Terence Ho <terenho@hotmail.com>
 #
 # This script is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
