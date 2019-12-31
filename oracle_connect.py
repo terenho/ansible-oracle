@@ -110,4 +110,3 @@ else:
   else:
     print("\033[91mhost: \033[95m" + host + "\033[91m is not in the database\033[0m")
     sys.exit(1)
-
